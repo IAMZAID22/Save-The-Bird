@@ -98,7 +98,7 @@ pla.scale= 0.10;
 function draw(){
   background(bg);
  
-  pla.velocityX = 4;
+
   
   if(keyDown("w") || keyDown("up") || keyDown("space")) {
          pla.velocityY  = -8;
@@ -106,6 +106,8 @@ function draw(){
     }
     pla.velocityY = pla.velocityY + 0.7;
   
+ piGrp.velocityX = - 4;
+ 
   piGrp.add(pi1);
   piGrp.add(pi2);
   piGrp.add(pi3);
@@ -121,7 +123,7 @@ function draw(){
   piGrp.add(pi13);
   piGrp.add(pi14);
   piGrp.add(pi15);
-  piGrp.add(pi6);
+  piGrp.add(pi16);
   pla.collide(b);
   
   
@@ -132,6 +134,37 @@ function draw(){
     fill("white");
     text("YOU LOST",750,270);
   }
-  
+  if(pi1.x<0){
+  pi1.x = 1500;
+   pi2.x = 1500;
+  }
+ if(pi3.x<0){
+  pi3.x = 1500;
+   pi4.x = 1500;
+  }
+ if(pi5.x<0){
+  pi5.x = 1500;
+   pi6.x = 1500;
+  }
+ if(pi7.x<0){
+  pi7.x = 1500;
+   pi8.x = 1500;
+  }
+ if(pi9.x<0){
+  pi9.x = 1500;
+   pi10.x = 1500;
+  }
+ if(pi11.x<0){
+  pi11.x = 1500;
+   pi12.x = 1500;
+  }
+ if(pi13.x<0){
+  pi13.x = 1500;
+   pi14.x = 1500;
+  }
+ if(pi15.x<0){
+  pi15.x = 1500;
+   pi16.x = 1500;
+  }
 drawSprites();
 }
