@@ -106,22 +106,7 @@ function draw(){
     }
     pla.velocityY = pla.velocityY + 0.7;
   
- pi1.velocityX = - 4;
- pi2.velocityX = - 4;
- pi3.velocityX = - 4;
- pi4.velocityX = - 4;
- pi5.velocityX = - 4;
- pi6.velocityX = - 4;
- pi7.velocityX = - 4;
- pi8.velocityX = - 4;
- pi9.velocityX = - 4;
- pi10.velocityX = - 4;
- pi11.velocityX = - 4;
- pi12.velocityX = - 4;
- pi13.velocityX = - 4;
- pi14.velocityX = - 4;
- pi15.velocityX = - 4;
- pi16.velocityX = - 4;
+pla.veocityX = 4;
  
   piGrp.add(pi1);
   piGrp.add(pi2);
