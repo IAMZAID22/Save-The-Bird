@@ -166,34 +166,50 @@ function draw(){
   if(pi1.x<0){
   pi1.x = 1500;
    pi2.x = 1500;
+   pi1.velocityX = pi1.velocityX+1;
+   pi2.velocityX = pi1.velocityX+1;
   }
  if(pi3.x<0){
   pi3.x = 1500;
    pi4.x = 1500;
+  pi3.velocityX = pi3.velocityX+1;
+   pi4.velocityX = pi3.velocityX+1;
   }
  if(pi5.x<0){
   pi5.x = 1500;
    pi6.x = 1500;
+  pi5.velocityX = pi5.velocityX+1;
+   pi6.velocityX = pi6.velocityX+1;
   }
  if(pi7.x<0){
   pi7.x = 1500;
    pi8.x = 1500;
+  pi7.velocityX = pi7.velocityX+1;
+   pi8.velocityX = pi7.velocityX+1;
   }
  if(pi9.x<0){
   pi9.x = 1500;
    pi10.x = 1500;
+  pi9.velocityX = pi9.velocityX+1;
+   pi10.velocityX = pi9.velocityX+1;
   }
  if(pi11.x<0){
   pi11.x = 1500;
    pi12.x = 1500;
+  pi11.velocityX = pi11.velocityX+1;
+   pi12.velocityX = pi11.velocityX+1;
   }
  if(pi13.x<0){
   pi13.x = 1500;
    pi14.x = 1500;
+   pi13.velocityX = pi13.velocityX+1;
+   pi14.velocityX = pi13.velocityX+1;
   }
  if(pi15.x<0){
   pi15.x = 1500;
    pi16.x = 1500;
+   pi15.velocityX = pi15.velocityX+1;
+   pi16.velocityX = pi15.velocityX+1;
   }
 drawSprites();
 }
