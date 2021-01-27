@@ -98,7 +98,6 @@ pla.scale= 0.10;
 function draw(){
   background(bg);
  
-
   
   if(keyDown("w") || keyDown("up") || keyDown("space")) {
          pla.velocityY  = -8;
@@ -106,8 +105,6 @@ function draw(){
     }
     pla.velocityY = pla.velocityY + 0.7;
   
-pla.veocityX = 4;
- 
   piGrp.add(pi1);
   piGrp.add(pi2);
   piGrp.add(pi3);
@@ -123,7 +120,7 @@ pla.veocityX = 4;
   piGrp.add(pi13);
   piGrp.add(pi14);
   piGrp.add(pi15);
-  piGrp.add(pi16);
+  piGrp.add(pi6);
   pla.collide(b);
   
   
@@ -133,7 +130,39 @@ pla.veocityX = 4;
     textSize(35);
     fill("white");
     text("YOU LOST",750,270);
+       pi1.velocityX = - 4;
+ pi2.velocityX = 0;
+ pi3.velocityX = 0;
+ pi4.velocityX = 0;
+ pi5.velocityX = 0;
+ pi6.velocityX = 0;
+ pi7.velocityX = 0;
+ pi8.velocityX = 0;
+ pi9.velocityX = 0;
+ pi10.velocityX = 0;
+ pi11.velocityX = 0;
+ pi12.velocityX = 0;
+ pi13.velocityX = 0;
+ pi14.velocityX = 0 ;
+ pi15.velocityX = 0;
+ pi16.velocityX = 0;
   }
+   pi1.velocityX = - 4;
+ pi2.velocityX = - 4;
+ pi3.velocityX = - 4;
+ pi4.velocityX = - 4;
+ pi5.velocityX = - 4;
+ pi6.velocityX = - 4;
+ pi7.velocityX = - 4;
+ pi8.velocityX = - 4;
+ pi9.velocityX = - 4;
+ pi10.velocityX = - 4;
+ pi11.velocityX = - 4;
+ pi12.velocityX = - 4;
+ pi13.velocityX = - 4;
+ pi14.velocityX = - 4;
+ pi15.velocityX = - 4;
+ pi16.velocityX = - 4;
   if(pi1.x<0){
   pi1.x = 1500;
    pi2.x = 1500;
