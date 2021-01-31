@@ -99,7 +99,7 @@ function draw(){
   background(bg);
  
   
-  if(keyDown("w") || keyDown("up") || keyDown("space")||mousePressedOver(pla)) {
+  if(keyDown("w") || keyDown("up") || keyDown("space")) {
          pla.y  = pla.y-28;
      
     }
