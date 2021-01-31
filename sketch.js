@@ -100,7 +100,7 @@ function draw(){
  
   
   if(keyDown("w") || keyDown("up") || keyDown("space")||mousePressedOver(pla)) {
-         pla.velocityY  = -8;
+         pla.y  = pla.y-28;
      
     }
     pla.velocityY = pla.velocityY + 0.7;
