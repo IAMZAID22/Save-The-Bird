@@ -99,7 +99,7 @@ function draw(){
   background(bg);
  
   
-  if(keyDown("w") || keyDown("up") || keyDown("space")||mouseDown) {
+  if(keyDown("w") || keyDown("up") || keyDown("space")||mousePressedOver(pla)) {
          pla.velocityY  = -8;
      
     }
